@@ -7,5 +7,11 @@ export default defineNuxtConfig({
     output: { 
         publicDir: 'public'
       }
-  }
+  },
+    modules: ['@nuxtjs/tailwindcss'],
+    tailwindcss: {
+      exposeConfig: true,
+      viewer: true,
+      // and more...
+    }
 })
