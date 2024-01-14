@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   baseURL: "/",
-  buildAssetsDir: "res",
+  buildAssetsDir: "assets",
   devtools: { enabled: true },
   nitro: {
     output: { 

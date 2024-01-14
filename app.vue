@@ -13,10 +13,9 @@
     </header>
 
     <main class="pt-10 pb-20 flex flex-col flex-1 overflow-auto h-100">
-      <section id="inicio" class="mt-20 mb-20 p-10 rounded w-11/12 h-100 mx-auto bg-andalucia-gold-light">
-        <div class="h-90" style="height:400px;">
-          <h2 class="text-2xl text-andalucia-green-dark">La confianza que necesitas</h2>
-        </div>
+      <section id="inicio" class="mt-20 mb-20 rounded w-100 h-100 bg-andalucia-gold-light">
+        <img src="~/assets/hero_panel.jpeg" class="relative" width="100%"/>
+        <!-- <h2 class="text-white text-2xl text-andalucia-green-dark">La confianza que necesitas</h2> -->
       </section>
       <section id="" class="py-10">
         <div id="valores">
@@ -96,6 +95,10 @@
         <p class="text-2xl text-gray-600">
           Aquí tienes información de la campaña
         </p>
+      </section>
+      <h3 class="mx-10 text-3xl text-left">Patrocinadores</h3>
+      <section id="info" class="container w-100 my-8 flex mx-auto flex-col text-justify gap-6 text-lg sm:px-20">
+          <img src="~/assets/turra_mitica.jpeg"/>
       </section>
     </main>
     <footer class="flex flex-row bg-andalucia-green-light text-white md:px-2 py-1 text-sm fixed bottom-0 w-full z-10">
